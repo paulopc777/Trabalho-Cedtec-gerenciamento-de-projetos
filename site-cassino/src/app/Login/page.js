@@ -1,7 +1,13 @@
-export default function Login(){
+
+import Header from '@/Components/Header'
+
+export default function Login() {
     return (
-        <div>
-            <h1>Login</h1>
-        </div>
+        <>
+            <Header/>
+            <div className=''>
+
+            </div>
+        </>
     )
 }
