@@ -29,12 +29,12 @@ export default function Header() {
 
             <div className=' flex gap-2'>
                 <Button
-                    color='bg-trasparent  text-white'
+                    color='bg-trasparent  text-white text-xl'
                     text='Login'
                     link='/Login'
                 />
                 <Button
-                    color='bg-whelow-ligt px-1 py-2 rounded-md'
+                    color='bg-whelow-ligt px-1 py-1 rounded-md text-xl'
                     text='Cadastro'
                     link='/Cadastro'
                 />

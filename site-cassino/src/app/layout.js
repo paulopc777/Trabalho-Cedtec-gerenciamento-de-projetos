@@ -1,4 +1,11 @@
 import '../style/globals.css'
+import { Bebas_Neue } from 'next/font/google'
+
+
+const Bebas = Bebas_Neue({
+  weight: '400',
+  subsets: ['latin']
+})
 
 export const metadata = {
   title: 'Horizon Cassino',
@@ -8,7 +15,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt-br">
-      <body >{children}</body>
+      <body className={Bebas.className} >{children}</body>
     </html>
   )
 }
