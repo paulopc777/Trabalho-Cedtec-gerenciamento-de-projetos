@@ -43,6 +43,11 @@ input::placeholder {
   opacity: 1; /* Firefox */
 }
 
+.propag{
+  width: 10rem;
+  height: 35.75rem;
+}
+
 .start-animation{
   animation: anime 1.2s cubic-bezier(0.455, 0.03, 0.515, 0.955); 
 }
