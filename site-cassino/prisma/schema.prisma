@@ -10,4 +10,26 @@ datasource db {
   url      = "file:./dev.db"
 }
 
+model Usuarios {
+  Id_Usuarios Int @id @unique @default(autoincrement())
+  Name String?
+  Email String
+  Pass String
+  Coin Decimal @default(0)
+}
 
+
+model Jogo{
+  Id_Jogo Int @id @default(autoincrement())
+  Name String
+  Descricao String
+  V_Play Int
+  Categoria Categorias @relation(fields: [idCategoria],references: [Id_Categorai])
+  idCategoria Int
+}
+
+model Categorias {
+  Id_Categorai Int @id @default(autoincrement())
+  Name String
+  Jogos Jogo[]
+}
