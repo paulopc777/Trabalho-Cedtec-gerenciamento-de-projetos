@@ -11,7 +11,8 @@ module.exports = {
       'purple-dark': '#1E102E',
       'purple-ligt': '#745895',
       'whelow-dark': '#F2A517',
-      'whelow-ligt': '#FFD20E'
+      'whelow-ligt': '#FFD20E',
+      'red':'#8B0000'
     },
     extend: {
       backgroundImage: {
